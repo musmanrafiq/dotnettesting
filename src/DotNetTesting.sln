@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C0C1A330-FC25-4A9A-A8B6-FC3111B80525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_MVC", "Presentation\WebApp_MVC\WebApp_MVC\WebApp_MVC.csproj", "{AE40F531-9273-4226-8067-A6A17A1E5A73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7300484F-8892-47A7-BD6D-48675DD8C6D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_MVC_UnitTests", "Tests\WebApp_MVC_UnitTests\WebApp_MVC_UnitTests.csproj", "{D2CEBB81-557D-434E-9730-24E3E1D4D018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_MVC_IntegrationTests", "Tests\WebApp_MVC_IntegrationTests\WebApp_MVC_IntegrationTests.csproj", "{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3B0C16C2-FB97-49FD-A804-15162CC940AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatheWrapper", "Library\OpenWeatheWrapper\OpenWeatheWrapper.csproj", "{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE40F531-9273-4226-8067-A6A17A1E5A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE40F531-9273-4226-8067-A6A17A1E5A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE40F531-9273-4226-8067-A6A17A1E5A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE40F531-9273-4226-8067-A6A17A1E5A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CEBB81-557D-434E-9730-24E3E1D4D018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CEBB81-557D-434E-9730-24E3E1D4D018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CEBB81-557D-434E-9730-24E3E1D4D018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CEBB81-557D-434E-9730-24E3E1D4D018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE40F531-9273-4226-8067-A6A17A1E5A73} = {C0C1A330-FC25-4A9A-A8B6-FC3111B80525}
+		{D2CEBB81-557D-434E-9730-24E3E1D4D018} = {7300484F-8892-47A7-BD6D-48675DD8C6D0}
+		{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16} = {7300484F-8892-47A7-BD6D-48675DD8C6D0}
+		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1} = {3B0C16C2-FB97-49FD-A804-15162CC940AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA7BF4B2-6EF0-4D89-9714-B93BEFDD739E}
+	EndGlobalSection
+EndGlobal
