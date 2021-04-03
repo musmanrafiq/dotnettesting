@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{3B0C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatheWrapper", "Library\OpenWeatheWrapper\OpenWeatheWrapper.csproj", "{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_MVC_EndToEndTests", "Tests\WebApp_MVC_EndToEndTests\WebApp_MVC_EndToEndTests.csproj", "{8D1B5D9F-3AD5-4B1F-BD21-7B25CA39632A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1B5D9F-3AD5-4B1F-BD21-7B25CA39632A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B5D9F-3AD5-4B1F-BD21-7B25CA39632A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B5D9F-3AD5-4B1F-BD21-7B25CA39632A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B5D9F-3AD5-4B1F-BD21-7B25CA39632A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{D2CEBB81-557D-434E-9730-24E3E1D4D018} = {7300484F-8892-47A7-BD6D-48675DD8C6D0}
 		{8ABDB82F-33C9-46C7-A2DB-7C31CC7E6C16} = {7300484F-8892-47A7-BD6D-48675DD8C6D0}
 		{5077D473-BCE0-4FCE-B9EB-D26DE7346EF1} = {3B0C16C2-FB97-49FD-A804-15162CC940AC}
+		{8D1B5D9F-3AD5-4B1F-BD21-7B25CA39632A} = {7300484F-8892-47A7-BD6D-48675DD8C6D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA7BF4B2-6EF0-4D89-9714-B93BEFDD739E}
