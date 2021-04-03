@@ -21,7 +21,7 @@ namespace OpenWeatheWrapper.Services
         public async Task<WeatherModel> GetWeatherByCity(string cityName)
         {
             WeatherModel model = null;
-            HttpResponseMessage response = await _client.GetAsync($"/data/2.5/weather?q=islamabad&appid={_weatherOptions.AppId}");
+            HttpResponseMessage response = await _client.GetAsync($"/data/2.5/weather?q={cityName}&appid={_weatherOptions.AppId}");
             if (response.IsSuccessStatusCode)
             {
                 model = await response.Content.ReadFromJsonAsync<WeatherModel>();
