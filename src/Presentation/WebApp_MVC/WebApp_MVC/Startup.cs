@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,9 +7,6 @@ using OpenWeatheWrapper.Interfaces;
 using OpenWeatheWrapper.IOptions;
 using OpenWeatheWrapper.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace WebApp_MVC
 {
@@ -31,9 +27,10 @@ namespace WebApp_MVC
 
             // registering dependencies
             services.AddTransient<IWheatherService, WheatherService>();
+
             services.AddHttpClient("WeatherApiClient", c => c.BaseAddress = new Uri("https://api.openweathermap.org"));
 
-            
+
 
             services.AddControllersWithViews();
         }

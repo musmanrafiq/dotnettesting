@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using OpenWeatheWrapper.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using WebApp_MVC.Models;
 
@@ -21,10 +18,10 @@ namespace WebApp_MVC.Controllers
             _wheatherService = weatherService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var record = _wheatherService.GetWeatherByCity("Islamabad");
-            return View();
+            var record = await _wheatherService.GetWeatherByCity("Islamabad");
+            return View(record);
         }
 
         public IActionResult Privacy()

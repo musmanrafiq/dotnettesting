@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using OpenWeatheWrapper.Models;
 using System.Threading.Tasks;
 
 namespace OpenWeatheWrapper.Interfaces
 {
     public interface IWheatherService
     {
-        Task GetWeatherByCity(string cityName);
+        Task<WeatherModel> GetWeatherByCity(string cityName);
     }
 }
